@@ -19,7 +19,6 @@ def main(param_standard=False,path = None, path_output = None) :
 
     if path == None :
         path = selection_gcode()
-        #path = r'C:\Users\hugue\OneDrive\Bureau\NONAME_0.nc'
     if path_output == None :
         path_output = modify_filename(path, suffix="_segment")
 
@@ -425,3 +424,4 @@ def modify_filename(path, suffix="", new_ext=None):
 
 if __name__ == "__main__" :
     main(False)
+
